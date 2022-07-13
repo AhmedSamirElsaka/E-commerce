@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">E-commerce</string>
+    <string name="choose_enter_method_join_now">Join Now</string>
+    <string name="choose_enter_method_have_account">Already have an account? sign In</string>
+    <string name="forget_password_first_tv">Forgot Password</string>
+    <string name="forget_password_second_tv">select whick contact details should we use to \n reset your password</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="sign_up_have_account">Already have an account?</string>
+    <string name="sign_up_get_start">Lets Get Started</string>
+    <string name="sign_up_second_tv">create an account to continue your all shopping</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="sign_in_do_not_have_account">Don\'t have an account</string>
+    <string name="sign_in_remember">Remember</string>
+    <string name="sign_in_forget_password">Forget password?</string>
+    <string name="sign_in_welcome_back">Welcome Back</string>
+    <string name="sign_in_second_tv">Login to your account to continue your shopping</string>
+    <string name="update_password_first_tv">Update Password</string>
+    <string name="update_password_second_tv">Enter a new passord to change this</string>
+    <string name="forget_password_new_passord">New Password</string>
+    <string name="forget_password_confirm_passord">Confirm Password</string>
+    <string name="update_password_btn_continue">Continue</string>
+    <string name="login_btn_sign_in">Login</string>
+    <string name="ver_code_first_tv">Verification Code</string>
+    <string name="ver_code_second_tv">Type the verification code we\'ve sent you</string>
+    <string name="ver_code_btn_confirm">Confirm</string>
+    <string name="onboard1_first_tv">Choose Your Products</string>
+    <string name="onboard1_second_tv">We connect you to your favourite online retailers and show you all the best deals in one place</string>
+    <string name="onboard3_first_tv">Fast Delivery</string>
+    <string name="onboard3_second_tv">Fast delivery with in few minutes of ordering</string>
+    <string name="onboard2_first_tv">Good Service</string>
+    <string name="onboard2_second_tv">Get high quality products \n for the best prices</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delivery_to_egypt">Delivery to Egypt</string>
+    <string name="similar_products">Similar Products</string>
+    <string name="view_all">View All</string>
+    <string name="recommended">Recommended</string>
+    <string name="new_products">New Products</string>
+    <string name="hi_text">Hi ,ahmed samir</string>
+    <string name="best_seller">Best Seller</string>
+    <string-array name="product_spinner_color">
+        <item>Color</item>
+        <item>Color: red</item>
+        <item>Color: black</item>
+        <item>Color: white</item>
+        <item>Color: yellow</item>
+        <item>Color: green</item>
+        <item>Color: grey</item>
+        <item>Color: blue</item>
+    </string-array>
+    <string-array name="product_spinner_size">
+        <item>Size</item>
+        <item>Size: s</item>
+        <item>Size: m</item>
+        <item>Size: L</item>
+        <item>Size: xL</item>
+        <item>Size: xxL</item>
+        <item>Size: xxxL</item>
+    </string-array>
+    <string-array name="product_spinner">
+        <item>Best match</item>
+        <item>sort by: Low to High </item>
+        <item>sort by: High to Low</item>
+        <item>sort by: Rating</item>
+        <item>sort by: Newest Arrivals</item>
+    </string-array>
+</resources>

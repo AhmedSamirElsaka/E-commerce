@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/my_cart_product_image"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/onboard1"
+            />
+
+        <TextView
+            android:id="@+id/my_cart_product_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_toStartOf="@+id/my_cart_btn_plus"
+            android:layout_toRightOf="@id/my_cart_product_image"
+            android:maxLines="2"
+            android:text="white shoe"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/my_cart_product_color_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/my_cart_product_name_tv"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_toRightOf="@id/my_cart_product_image"
+            android:text="color : white"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10ssp" />
+
+        <TextView
+            android:id="@+id/my_cart_product_size_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/my_cart_product_name_tv"
+            android:layout_marginLeft="@dimen/_12ssp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_toRightOf="@id/my_cart_product_color_tv"
+            android:text="size : L "
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/my_cart_product_price_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/my_cart_product_color_tv"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_toRightOf="@id/my_cart_product_image"
+            android:text="$ 45:00"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/my_cart_btn_plus"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20ssp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:backgroundTint="@color/black"
+            android:foreground="@drawable/ic_baseline_add_24" />
+        <TextView
+            android:textSize="@dimen/_12ssp"
+            android:id="@+id/my_cart_tv_count"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:text="1"
+            android:background="@color/white"
+            android:layout_below="@id/my_cart_btn_plus"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:gravity="center" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/my_cart_btn_minus"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20ssp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="@color/white"
+            android:foreground="@drawable/ic_baseline_horizontal_rule_24"
+            android:layout_below="@id/my_cart_tv_count"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/wish_list_product_image"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/onboard1" />
+
+        <TextView
+            android:id="@+id/wish_list_product_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginRight="8dp"
+            android:layout_toStartOf="@+id/wish_list_is_loved_image"
+            android:layout_toRightOf="@id/wish_list_product_image"
+            android:maxLines="2"
+            android:text="white shoe"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/wish_list_product_color_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="color : white"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_toRightOf="@id/wish_list_product_image"
+            android:layout_below="@id/wish_list_product_name_tv"/>
+        <TextView
+            android:id="@+id/wish_list_product_size_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="size : L "
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginLeft="@dimen/_12ssp"
+            android:layout_toRightOf="@id/wish_list_product_color_tv"
+            android:layout_below="@id/wish_list_product_name_tv"/>
+
+        <TextView
+            android:id="@+id/wish_list_product_price_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wish_list_product_color_tv"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_toRightOf="@id/wish_list_product_image"
+            android:text="$ 45:00"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp" />
+
+        <ImageView
+            android:id="@+id/wish_list_is_loved_image"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20ssp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_14sdp"
+            android:src="@drawable/ic_black_heart" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
